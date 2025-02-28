@@ -55,6 +55,9 @@ const Home = () => {
         </button>
       </div>
       <div>
+        <h1 className="text-3xl text-center font-bold p-3">Products</h1>
+      </div>
+      <div>
         {products &&
           products?.map((product, index) => (
             <div
