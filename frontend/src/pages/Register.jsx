@@ -25,7 +25,7 @@ const Register = () => {
       return handleError("All fields are required");
     }
     try {
-      const url = "http://localhost:3000/api/auth/register";
+      const url = "https://mern-auth-app-backend-kappa.vercel.app/api/auth/register";
       const response = await fetch(url, {
         method: "POST",
         headers: {

@@ -15,7 +15,7 @@ const Home = () => {
 
   const fetchProducts = async () => {
     try {
-      const url = "http://localhost:3000/api/products";
+      const url = "https://mern-auth-app-backend-kappa.vercel.app/api/products";
       const response = await fetch(url, {
         method: "GET",
         headers: {
